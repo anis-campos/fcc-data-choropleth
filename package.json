@@ -1,0 +1,23 @@
+{
+  "name": "fcc-choropleth",
+  "version": "1.0.0",
+  "description": "[FreeCodeCamp] Data Visualization Projects - Visualize Data with a Choropleth Map",
+  "scripts": {
+    "build": "fcc-chart",
+    "watch": "watch 'npm run build' ./src"
+  },
+  "devDependencies": {
+    "yargs": "^14.2.0",
+    "@babel/core": "^7.6.4",
+    "@babel/node": "^7.6.3",
+    "@babel/preset-env": "^7.6.3",
+    "babel-preset-minify": "^0.5.1",
+    "squirrelly": "^7.7.0",
+    "watch": "^1.0.2",
+    "@types/d3": "^5.7.2",
+    "@types/topojson": "^3.2.2",
+    "babel-plugin-remove-import-export": "^1.1.0"
+  },
+  "author": "",
+  "license": "ISC"
+}

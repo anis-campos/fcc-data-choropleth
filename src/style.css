@@ -1,0 +1,72 @@
+
+header {
+    text-align: center;
+    margin-top: 1em;
+}
+
+svg {
+    margin: auto;
+    display: block;
+}
+
+svg g#legend rect {
+    stroke-width: 1;
+    stroke: black;
+}
+
+svg g#legend text {
+    font-size: 1.5em;
+}
+
+#source{
+    text-align: right;
+    max-width: 1140px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.state {
+    stroke-linejoin: round;
+    stroke: white;
+    fill: none;
+    pointer-events: none;
+}
+
+#title {
+    font-size: 2.5em;
+}
+
+#description {
+    font-size: 1.2em;
+}
+
+
+#tooltip {
+    width: fit-content;
+    max-width: 300px;
+    background-color: rgba(152, 251, 152, 0.7);
+    position: absolute;
+    font-size: 12px;
+    font-weight: 500;
+    right: 0;
+
+    display: none;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.cell {
+    stroke: none;
+}
+
+
+.cell:hover {
+    stroke: black;
+    stroke-width: 1px;
+}
+
