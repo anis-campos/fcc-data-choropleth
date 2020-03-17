@@ -16,7 +16,8 @@
     "watch": "^1.0.2",
     "@types/d3": "^5.7.2",
     "@types/topojson": "^3.2.2",
-    "babel-plugin-remove-import-export": "^1.1.0"
+    "babel-plugin-remove-import-export": "^1.1.0",
+    "minimist": ">=1.2.2"
   },
   "author": "",
   "license": "ISC"
