@@ -17,7 +17,7 @@
     "@types/d3": "^5.7.2",
     "@types/topojson": "^3.2.2",
     "babel-plugin-remove-import-export": "^1.1.0",
-    "minimist": ">=1.2.3"
+    "minimist": ">=1.2.6"
   },
   "author": "",
   "license": "ISC"
